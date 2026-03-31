@@ -207,7 +207,7 @@
       });
     }
   }
-})({"84Pvc":[function(require,module,exports,__globalThis) {
+})({"7wZbQ":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -853,7 +853,7 @@ const config = {
 };
 const salesChart = new (0, _autoDefault.default)(ctx, config);
 
-},{"debounce":"7NAJV","@pnotify/core/dist/PNotify.js":"fay4s","@pnotify/mobile/dist/PNotifyMobile.js":"5RXYV","@pnotify/core/dist/BrightTheme.css":"grIyt","@pnotify/core/dist/PNotify.css":"c4y47","chart.js/auto":"a3bOj","@parcel/transformer-js/src/esmodule-helpers.js":"0jL2E"}],"7NAJV":[function(require,module,exports,__globalThis) {
+},{"debounce":"7NAJV","@pnotify/core/dist/PNotify.js":"fay4s","@pnotify/mobile/dist/PNotifyMobile.js":"5RXYV","@pnotify/core/dist/BrightTheme.css":"grIyt","@pnotify/core/dist/PNotify.css":"c4y47","chart.js/auto":"a3bOj","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"7NAJV":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>debounce);
@@ -919,7 +919,7 @@ function debounce(function_, wait = 100, options = {}) {
     return debounced;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"0jL2E"}],"0jL2E":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -3916,7 +3916,7 @@ parcelHelpers.exportAll(_chartJs, exports);
 (0, _chartJs.Chart).register(...(0, _chartJs.registerables));
 exports.default = (0, _chartJs.Chart);
 
-},{"../dist/chart.js":"6U2cz","@parcel/transformer-js/src/esmodule-helpers.js":"0jL2E"}],"6U2cz":[function(require,module,exports,__globalThis) {
+},{"../dist/chart.js":"6U2cz","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6U2cz":[function(require,module,exports,__globalThis) {
 /*!
  * Chart.js v4.5.1
  * https://www.chartjs.org
@@ -14263,7 +14263,7 @@ const registerables = [
     scales
 ];
 
-},{"./chunks/helpers.dataset.js":"jgtl4","@kurkle/color":"jkZGG","@parcel/transformer-js/src/esmodule-helpers.js":"0jL2E"}],"jgtl4":[function(require,module,exports,__globalThis) {
+},{"./chunks/helpers.dataset.js":"jgtl4","@kurkle/color":"jkZGG","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jgtl4":[function(require,module,exports,__globalThis) {
 /*!
  * Chart.js v4.5.1
  * https://www.chartjs.org
@@ -16870,7 +16870,7 @@ function getDatasetClipArea(chart, meta) {
     };
 }
 
-},{"@kurkle/color":"jkZGG","@parcel/transformer-js/src/esmodule-helpers.js":"0jL2E"}],"jkZGG":[function(require,module,exports,__globalThis) {
+},{"@kurkle/color":"jkZGG","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jkZGG":[function(require,module,exports,__globalThis) {
 /*!
  * @kurkle/color v0.3.4
  * https://github.com/kurkle/color#readme
@@ -17490,6 +17490,6 @@ function index_esm(input) {
     return new Color(input);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"0jL2E"}]},["84Pvc","2R06K"], "2R06K", "parcelRequiredcb4", {})
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["7wZbQ","2R06K"], "2R06K", "parcelRequiredcb4", {})
 
 //# sourceMappingURL=js-libraries-hw.0f77c784.js.map
