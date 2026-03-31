@@ -1,0 +1,35 @@
+{
+  "name": "js-libraries-hw",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /js-libraries-hw/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykolaSadl25/js-libraries-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MykolaSadl25/js-libraries-hw/issues"
+  },
+  "homepage": "https://github.com/MykolaSadl25/js-libraries-hw#readme",
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/desktop": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "debounce": "^3.0.0",
+    "gh-pages": "^6.3.0"
+  }
+}
