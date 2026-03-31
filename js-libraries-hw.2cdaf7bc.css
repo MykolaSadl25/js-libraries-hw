@@ -1,0 +1,22 @@
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.box {
+  justify-content: center;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+button {
+  color: #fff;
+  background-color: #3131e7;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 13px #3131e7;
+}
+/*# sourceMappingURL=js-libraries-hw.2cdaf7bc.css.map */
